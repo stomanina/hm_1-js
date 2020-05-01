@@ -1,17 +1,12 @@
 console.log("");
 console.log("ЗАДАНИЕ №8");
 
-var zadacha_6 = "Решение уравнений, х = ";
-    a = 8;
-    b = 3;
-    x;
-
-    c = a+2*(x-b);
-    d = b(x+15);
-    d = a+6*x;
-    e = 23780;
-    e = x+x*2+a*x+b*x;
-    
-console.log(zadacha_6 + x);     
-
-//не получается. не хочу смотреть чужое решение. вышлю задачу со следующим дз
+var zadacha_6 = "Решение уравнений, х = ",
+    a = 8,
+    b = 3,
+    x = (16 - a + (2*b))/2;  
+console.log(zadacha_6 + x);    
+var x = (a - (15*b))/(b-c);
+console.log (x);
+var x = 23780/(3+a+b);
+console.log(x);
